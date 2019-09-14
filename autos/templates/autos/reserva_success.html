@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+<div class="alert alert-success alert-dismissable fade show">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+        
+<table class="table">
+    <tr><th>Encargado de la reserva</th><td>{{reserva.id_usuario}}</td></tr>
+    <tr><th>Identificacion de reserva</th><td>{{reserva.id}}</td></tr>
+    <tr><th>Dia de recogida</th><td>{{reserva.dia_recogida}}</td></tr>
+    <tr><th>Dia de entrega</th><td>{{reserva.dia_entrega}}</td></tr>
+    <tr><th>Matricula</th><td>{{reserva.matricula }}</td></tr>
+    <tr><th>Precio</th><td>{{reserva.precio }}</td></tr>
+    <tr><th>Dias</th><td>{{reserva.dias}}</td></tr>
+</table>
+</div>
+<img class="img-fluid rounded " style="margin: auto;display: block;" src="{% static vehiculo.imagen.url %}">
+    <table class="table">
+        <tbody>
+        <tr><th>Matricula</th><td>{{vehiculo.matricula}}</td></tr>
+        <tr><th>Marca</th><td>{{vehiculo.marca}}</td></tr>
+        <tr><th>Modelo</th><td>{{vehiculo.modelo}}</td></tr>
+        <tr><th>Tipo de Motor</th><td>{{vehiculo.get_tipo_motor_display}}</td></tr>
+        <tr><th>Tipo de Vehiculo</th><td>{{vehiculo.get_tipo_vehiculo_display}}</td></tr>
+        <tr><th>Descripcion</th><td>{{vehiculo.descripcion}}</td></tr>
+        <tr><th>Techo Electronico</th><th><img src="{% if vehiculo.techo_electrico %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+        <tr><th>Climatizacion</th><th><img src="{% if vehiculo.climatizacion %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+        <tr><th>Interior de Cuero</th><th><img src="{% if vehiculo.interior_cuero %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+        <tr><th>Sistema de navegacion</th><th><img src="{% if vehiculo.stma_navegacion %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+        <tr><th>Cambio Automatico</th><td><img src="{% if vehiculo.cambio_automatico %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></td></tr>
+        <tr><th>Gama</th><td>{{vehiculo.gama}}</td></tr>
+        <tr><th>Tarifa Diaria</th><td>{{vehiculo.tarifa_dia}}</td></tr>
+    </table>
+{% endblock content %}

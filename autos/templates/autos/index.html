@@ -1,0 +1,68 @@
+
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+{% if latest_question_list %}
+<h1>Flota de Vehiculos</h1>
+	<div class=" table-responsive">
+	<table class="table table-hover">
+<thead class="thead-dark ">
+    <tr>
+      <th scope="col">Imagen</th>
+      <th scope="col">Matricula</th>
+      <th scope="col">Descripción</th>
+       <th scope="col">Marca</th>
+       <th scope="col">Modelo</th>
+       <th scope="col">Tipo de Motor</th>
+       <th scope="col">Tipo de Vehiculo</th>
+       <th scope="col">Gama</th>
+       <th scope="col">Tarifa Diaria</th>
+     </tr>
+ </thead>
+    <tbody>
+      {% for vehiculo in latest_question_list %}
+      <tr>
+       
+        <td scope="row"><img src="{% static vehiculo.imagen.url %}" style="max-height:100px;" class="img-thumbnail"></td>
+        <th> <a href="{% url 'autos:Reserva' vehiculo.matricula %}">{{vehiculo.matricula}}</a></th>
+        <td>{{vehiculo.marca}}</td>
+        <td>{{vehiculo.modelo}}</td>
+        <td>{{vehiculo.descripcion}}</td>
+        <td>{{vehiculo.get_tipo_motor_display}}</td>
+        <td>{{vehiculo.get_tipo_vehiculo_display}}</td>
+        <td>{{vehiculo.gama}}</td>
+        <td>{{vehiculo.tarifa_dia}}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+	</table>
+
+
+	</div>
+  <!-- <ul>
+
+    {% for vehiculo in latest_question_list %}
+        <li>
+          <a href="{% url 'autos:Reserva' vehiculo.matricula %}">{{ vehiculo.matricula }}</a>
+            {{vehiculo.matricula}}
+    <li>Marca: {{vehiculo.marca}}
+    <li>Modelo: {{vehiculo.modelo}}
+    <li>Tipo de Motor: {{vehiculo.tipo_motor}}
+    <li>Tipo de Vehiculo: {{vehiculo.tipo_vehiculo}}
+    <li>Descripcion: {{vehiculo.descripcion}}
+    <li>Techo Electronico: {{vehiculo.techo_electrico}}
+    <li>Climatizacion: {{vehiculo.climatizacion}}
+    <li>Interior de Cuero: {{vehiculo.interior_cuero}}
+    <li>Sistema de navegacion: {{vehiculo.stma_navegacion}}
+    <li>Cambio Automatico: {{vehiculo.cambio_automatico}}
+    <li>Gama: {{vehiculo.gama}}
+    <li>Tarifa Diaria: {{vehiculo.tarifa_dia}}
+  <img src="{{vehiculo.imagen}}"> 
+        </li>
+
+    {% endfor %}
+	</ul> --> 
+{% else %}
+      <p>No hay vehiculos disponibles.</p>
+{% endif %}       
+{% endblock content %}

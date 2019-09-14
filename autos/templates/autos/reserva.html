@@ -1,0 +1,76 @@
+{% extends "base.html" %}
+{% load static %}
+{% load l10n %}
+{% block content %}
+
+	{% if user.is_authenticated %}
+		{% if h %}
+			<div class="alert alert-warning alert-dismissable fade show">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<strong>Alerta! </strong> coincide con reserva previa los dias entre {{dia_a}} y {{dia_b}}
+		{% for reserva in h  %}
+<p>
+			{{reserva.dia_recogida}} -- >{{reserva.dia_entrega}}
+		</p>	
+		{% endfor %}
+		</div>
+		
+	
+		{% elif error_message %}
+		<div class="alert alert-warning alert-dismissable fade show">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<strong>Alerta! </strong>{{error_message}}
+		</div>
+		
+	{% endif %}
+	<img class="img-fluid rounded" style="margin: auto;display: block;" src="{% static vehiculo.imagen.url %}" >
+	<table class="table">
+		<tbody>
+		<tr><th>Matricula</th><td>{{vehiculo.matricula}}</td></tr>
+		<tr><th>Marca</th><td>{{vehiculo.marca}}</td></tr>
+		<tr><th>Modelo</th><td>{{vehiculo.modelo}}</td></tr>
+		<tr><th>Tipo de Motor</th><td>{{vehiculo.get_tipo_motor_display}}</td></tr>
+		<tr><th>Tipo de Vehiculo</th><td>{{vehiculo.get_tipo_vehiculo_display}}</td></tr>
+		<tr><th>Descripcion</th><td>{{vehiculo.descripcion}}</td></tr>
+		<tr><th>Techo Electronico</th><th><img src="{% if vehiculo.techo_electrico %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+		<tr><th>Climatizacion</th><th><img src="{% if vehiculo.climatizacion %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+		<tr><th>Interior de Cuero</th><th><img src="{% if vehiculo.interior_cuero %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+		<tr><th>Sistema de navegacion</th><th><img src="{% if vehiculo.stma_navegacion %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></th></tr>
+		<tr><th>Cambio Automatico</th><td><img src="{% if vehiculo.cambio_automatico %}{% static "img/icon-yes.svg" %}{% else %}{% static "img/icon-no.svg" %}{% endif %}"></td></tr>
+		<tr><th>Gama</th><td>{{vehiculo.gama}}</td></tr>
+		<tr><th>Tarifa Diaria</th><td>{{vehiculo.tarifa_dia}}</td></tr>
+	</table>
+	<div style="padding-top:0vh" class="container">
+<h1>Reserva</h1>
+	<script language="JavaScript">
+function alerta() 
+{
+	var inicio = new Date(document.getElementById("id_dia_recogida").value);
+	var fin = new Date(document.getElementById("id_dia_entrega").value);
+	var dias = new Date(fin - inicio);
+	var dia = dias.getDate();
+	if (dia < 0) {
+		alert("No se establecio de forma correcta los dias "+ inicio+ " "+ fin + " " + dia );
+		return false;
+	}
+	var precio = dia * {{vehiculo.tarifa_dia|unlocalize}};
+	return confirm('¿Esta seguro que desea reservar por ' + dia + ' dias por el monto de ' + precio + '?' );	
+		
+	}
+</script>
+
+	 <form method='POST' action='{% url 'autos:ReservaPost' vehiculo.matricula %}' onsubmit="return alerta()">
+		{% csrf_token %}
+	<table>
+	{{form.as_table}}
+	</table>
+	<input type='submit' class="btn btn-lg btn-primary btn-danger"></div>
+	{% else %}
+	<div class="alert alert-danger alert-dismissable fade show">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+<strong>Alerta! </strong>{{notform}}<a href="{% url 'login'%}" class="alert-link">Iniciar sección</a>.
+</div>
+	
+	{% endif %}
+	
+{% endblock content %}

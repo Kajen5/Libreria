@@ -1,0 +1,972 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"Ras",
+				"RasberryPi"
+			],
+			[
+				"arduino",
+				"Arduino"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"ve",
+				"vehiculo\tstatement"
+			],
+			[
+				"MEDIA",
+				"MEDIA_URL"
+			],
+			[
+				"vehi",
+				"vehiculo\tstatement"
+			],
+			[
+				"veh",
+				"vehiculo\tstatement"
+			],
+			[
+				"reser",
+				"reserva"
+			],
+			[
+				"con",
+				"confirmacion"
+			],
+			[
+				"No",
+				"Nombre"
+			],
+			[
+				"dire",
+				"Direccion"
+			],
+			[
+				"nom",
+				"Nombre"
+			],
+			[
+				"is",
+				"is_valid\tfunction"
+			],
+			[
+				"matr",
+				"matriculapost\tparam"
+			],
+			[
+				"dia",
+				"dia_entrega"
+			],
+			[
+				"po",
+				"POST"
+			],
+			[
+				"reserva",
+				"reservaForm\tclass"
+			],
+			[
+				"DATE",
+				"DateInput\tclass"
+			],
+			[
+				"date",
+				"datecustome\tclass"
+			],
+			[
+				"sele",
+				"SelectDateWidget\tclass"
+			],
+			[
+				"__",
+				"__init__\tinit"
+			],
+			[
+				"ca",
+				"caption\tTag"
+			],
+			[
+				"max",
+				"max_digits\tparam"
+			],
+			[
+				"decim",
+				"DecimalField\tclass"
+			],
+			[
+				"resor",
+				"reservaForm\tclass"
+			],
+			[
+				"view",
+				"views\tmodule"
+			],
+			[
+				"detail",
+				"detailview\tDetailView"
+			],
+			[
+				"vi",
+				"views\tmodule"
+			],
+			[
+				"inter",
+				"IntegerField\tclass"
+			],
+			[
+				"self",
+				"self"
+			],
+			[
+				"cho",
+				"Choices_vehiculos\tstatement"
+			],
+			[
+				"prote",
+				"PROTECT\tfunction"
+			],
+			[
+				"for",
+				"ForeignKey"
+			],
+			[
+				"user",
+				"User\tmodule"
+			],
+			[
+				"image",
+				"ImageField\tclass"
+			],
+			[
+				"ascii",
+				"ASCIIUsernameValidator\tfunction"
+			],
+			[
+				"set",
+				"SET_NULL\tfunction"
+			],
+			[
+				"FOR",
+				"ForeignKey\tclass"
+			],
+			[
+				"field",
+				"FloatField\tclass"
+			],
+			[
+				"deco",
+				"text-decoration-line\tproperty"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"te",
+				"text-decoration\tproperty"
+			],
+			[
+				"dec",
+				"text-decoration\tproperty"
+			],
+			[
+				"in",
+				"inline\tdisplay"
+			],
+			[
+				"mar",
+				"margin\tproperty"
+			],
+			[
+				"bo",
+				"border-top\tproperty"
+			],
+			[
+				"font",
+				"font-family\tproperty"
+			],
+			[
+				"pa",
+				"padding\tproperty"
+			],
+			[
+				"fon",
+				"font-family\tproperty"
+			],
+			[
+				"sty",
+				"font-style\tproperty"
+			],
+			[
+				"lista",
+				"lista_guardada\tfunction"
+			],
+			[
+				"down",
+				"download_carpeta"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"chap",
+				"chapter_objeto\tstatement"
+			],
+			[
+				"cha",
+				"chapter_objeto\tstatement"
+			],
+			[
+				"chapter_",
+				"chapter_objeto\tstatement"
+			],
+			[
+				"manga",
+				"manga_completo\tclass"
+			],
+			[
+				"ch",
+				"chap_current\tstatement"
+			],
+			[
+				"ti",
+				"titulo"
+			],
+			[
+				"b",
+				"inline-block\tdisplay"
+			],
+			[
+				"bor",
+				"border-color\tproperty"
+			],
+			[
+				"v",
+				"views"
+			],
+			[
+				"bac",
+				"background-color\tproperty"
+			],
+			[
+				"list",
+				"lista_imagenes\tstatement"
+			],
+			[
+				"imag",
+				"imagenes"
+			],
+			[
+				"man",
+				"manga_id\tparam"
+			],
+			[
+				"ls",
+				"ls2\tfunction"
+			],
+			[
+				"htt",
+				"HttpResponse\tclass"
+			],
+			[
+				"ht",
+				"HttpResponse\tclass"
+			],
+			[
+				"lin",
+				"link_imagen\tstatement"
+			],
+			[
+				"li",
+				"link\tstatement"
+			],
+			[
+				"link",
+				"link"
+			],
+			[
+				"mov",
+				"movy\tstatement"
+			],
+			[
+				"play",
+				"player\tstatement"
+			],
+			[
+				"a",
+				"append\tfunction"
+			],
+			[
+				"off",
+				"offGame\tfunction"
+			],
+			[
+				"new",
+				"NewPosicion"
+			],
+			[
+				"cr",
+				"createOther\tfunction"
+			],
+			[
+				"re",
+				"remove_widget\tfunction"
+			],
+			[
+				"pla",
+				"player\tstatement"
+			],
+			[
+				"mo",
+				"movy\tstatement"
+			],
+			[
+				"gener",
+				"generarColor\tfunction"
+			],
+			[
+				"sh",
+				"shapes"
+			],
+			[
+				"pl",
+				"player\tstatement"
+			],
+			[
+				"player_",
+				"player_pos\tstatement"
+			],
+			[
+				"regul",
+				"RegularShape"
+			],
+			[
+				"p",
+				"player\tstatement"
+			],
+			[
+				"dis",
+				"distance\tparam"
+			],
+			[
+				"col",
+				"collisions"
+			],
+			[
+				"of",
+				"offset_x\tparam"
+			],
+			[
+				"ci",
+				"circulo"
+			],
+			[
+				"app",
+				"App\tclass"
+			],
+			[
+				"str",
+				"StringProperty\tclass"
+			],
+			[
+				"eli",
+				"Ellipsis\tinstance"
+			],
+			[
+				"line",
+				"LinePlayground\tclass"
+			],
+			[
+				"colli",
+				"collision"
+			],
+			[
+				"flo",
+				"FloatLayout\tclass"
+			],
+			[
+				"shap",
+				"shape"
+			],
+			[
+				"wit",
+				"width"
+			],
+			[
+				"sha",
+				"shape"
+			],
+			[
+				"ob",
+				"ObjectProperty\tclass"
+			],
+			[
+				"player",
+				"playerx\tstatement"
+			],
+			[
+				"on_",
+				"on_touch_move\tfunction"
+			],
+			[
+				"to",
+				"touch\tparam"
+			],
+			[
+				"ran",
+				"randint\tfunction"
+			],
+			[
+				"cen",
+				"center_x\tstatement"
+			],
+			[
+				"si",
+				"size\tstatement"
+			],
+			[
+				"el",
+				"Ellipse\tclass"
+			],
+			[
+				"le",
+				"leyendoPagina"
+			],
+			[
+				"time",
+				"timeout\tparam"
+			],
+			[
+				"tiem",
+				"timeout"
+			],
+			[
+				"pag",
+				"pag_padres\tstatement"
+			],
+			[
+				"hilo",
+				"hilos\tstatement"
+			],
+			[
+				"hi",
+				"hilo_busqueda\tfunction"
+			],
+			[
+				"ima",
+				"imagen"
+			],
+			[
+				"otro",
+				"otros_link\tstatement"
+			],
+			[
+				"tup",
+				"tuples\tstatement"
+			],
+			[
+				"hil",
+				"hilos\tstatement"
+			],
+			[
+				"r",
+				"replace2\tfunction"
+			],
+			[
+				"s",
+				"sleep\tfunction"
+			],
+			[
+				"w",
+				"wait"
+			],
+			[
+				"otr",
+				"otros_link\tstatement"
+			],
+			[
+				"titu",
+				"titulo\tstatement"
+			],
+			[
+				"im",
+				"imagen"
+			],
+			[
+				"no",
+				"nombre"
+			],
+			[
+				"do",
+				"download_archivo\tfunction"
+			],
+			[
+				"lis",
+				"lista\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "autos/templates/autos/base.html",
+			"settings":
+			{
+				"buffer_size": 4350,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 35.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"comen\t",
+				"Snippet: comment"
+			],
+			[
+				"",
+				"View: Toggle Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ssi"
+			],
+			[
+				"Snippet: inde",
+				"Snippet: include"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"pak",
+				"Install Package Control"
+			]
+		],
+		"width": 340.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import kivy"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/G/Proyectos/Alquiler",
+		"/G/Proyectos/Alquiler/autos",
+		"/G/Proyectos/Alquiler/autos/templates",
+		"/G/Proyectos/Alquiler/autos/templates/autos",
+		"/G/Proyectos/Alquiler/static",
+		"/G/Proyectos/Alquiler/templates",
+		"/G/Proyectos/Alquiler/templates/registration"
+	],
+	"file_history":
+	[
+		"/G/Proyectos/Alquiler/autos/templates/autos/base.html",
+		"/G/Proyectos/Alquiler/autos/models.py",
+		"/G/Proyectos/Alquiler/templates/registration/login.html",
+		"/G/Proyectos/Alquiler/templates/base.html",
+		"/C/xampp/htdocs/VERSION_nueva de xampp/tabla.php",
+		"/C/Users/CANC/Downloads/Comprobante_de_la_Consulta_CHONG_LEE__YIRIS_YAJAIRA.xml",
+		"/C/xampp/htdocs/VERSION_nueva de xampp/delete.php",
+		"/G/Proyectos/Alquiler/autos/templates/autos/reserva.html",
+		"/G/Proyectos/Alquiler/autos/templates/autos/index.html",
+		"/G/Proyectos/Alquiler/autos/views.py",
+		"/G/Proyectos/Alquiler/autos/templates/autos/reserva_success.html",
+		"/D/Nueva carpeta (2)/ProyectoenJava.txt",
+		"/G/Proyectos/Alquiler/autos/templates/autos/side-bar.html",
+		"/G/Proyectos/Alquiler/Nuevo documento de texto.txt",
+		"/D/svgprueba2alcaldia/svgpruebaaalcaldia.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/informacion.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/index.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/Arduino.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/RasberryPi.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/AplicacionesMoviles.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/img/informacion.html",
+		"/G/Proyectos/Alquiler/AplicacionesMoviles/bootstrap-4.1.1-dist/css/bootstrap.min.css.map",
+		"/G/Proyectos/Alquiler/Alquiler/settings.py",
+		"/E/svgprueba2alcaldia/svgpruebaaalcaldia.html",
+		"/G/Proyectos/Alquiler/primero.html",
+		"/G/Proyectos/Alquiler/autos/urls.py",
+		"/G/Proyectos/Alquiler/autos/templates/autos/login.html",
+		"/C/Users/CANC/.AndroidStudio3.0/system/log/threadDumps-freeze-20180721-111010-AI-171.4408382-17sec/threadDump-20180721-111010.txt",
+		"/C/Users/CANC/.AndroidStudio3.0/system/log/threadDumps-freeze-20180721-111010-AI-171.4408382-17sec/threadDump-20180721-111025.txt",
+		"/G/Proyectos/prueba01/manga/static/manga/havenmanga.py",
+		"/C/Users/CANC/Documents/listar.php",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/helpers.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/filters.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/sites/admin.py",
+		"/C/Users/CANC/Documents/delete.php",
+		"/C/Users/CANC/Documents/insert.php",
+		"/C/xampp/htdocs/Upload/delete.php",
+		"/C/xampp/htdocs/Upload/insert.php",
+		"/C/xampp/htdocs/Upload/tabla.php",
+		"/C/xampp/phpMyAdmin/libraries/insert_edit.lib.php",
+		"/C/xampp/phpMyAdmin/tbl_change.php",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/forms.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/options.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/sites.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/templates/admin/change_list.html",
+		"/G/Proyectos/prueba01/manga/views.py",
+		"/C/Users/CANC/Documents/Incomedia/WebSite X5 v11 - Evolution/CesarNg/Upload/pagina-5.php",
+		"/C/xampp/phpMyAdmin/index.php",
+		"/C/Users/CANC/Documents/Incomedia/WebSite X5 v11 - Evolution/CesarNg/Upload/tabla.php",
+		"/C/Users/CANC/Documents/Incomedia/WebSite X5 v11 - Evolution/CesarNg/Preview/tabla.html",
+		"/C/Users/CANC/Documents/Incomedia/WebSite X5 v11 - Evolution/CesarNg/Upload/imsearch.php",
+		"/C/Users/CANC/Documents/Incomedia/WebSite X5 v11 - Evolution/CesarNg/Preview/sitemap.xml",
+		"/D/CesarNg/diseño web/CesarNg/Upload/pcss/pcss .txt",
+		"/C/Users/CANC/Documents/insert.txt",
+		"/C/Users/CANC/AppData/Local/Temp/Rar$DIa0.049/triangle.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/templatetags/admin_urls.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/models.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/__init__.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/templates/admin/app_index.html",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/apps.py",
+		"/G/Proyectos/Alquiler/Alquiler/urls.py",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/templates/admin/filter.html",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/jpgtopdf.py",
+		"/C/Users/CANC/Downloads/LBF.js",
+		"/G/Proyectos/Alquiler/autos/admin.py",
+		"/G/Proyectos/Alquiler/templates/registration/base.html",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/static/admin/css/responsive.css",
+		"/G/Proyectos/prueba01/manga/templates/manga/index.html",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/static/admin/js/calendar.js",
+		"/G/Proyectos/Alquiler/autos/static/css/base.css",
+		"/G/Python/Python36/Lib/site-packages/django/contrib/admin/static/admin/css/responsive_rtl.css",
+		"/G/Proyectos/prueba01/prueba01/urls.py",
+		"/G/Proyectos/prueba01/prueba01/settings.py",
+		"/G/Proyectos/prueba01/manga/apps.py",
+		"/G/Proyectos/Alquiler/prueba.py",
+		"/G/Proyectos/prueba01/manga/static/manga/Tsuki ga Michibiku Isekai Douchuu-enlaces.txt",
+		"/G/Proyectos/prueba01/manga/static/manga/Aplicaciones Moviles index.html",
+		"/G/Proyectos/prueba01/manga/static/manga/estilos.css",
+		"/G/Proyectos/prueba01/manga/static/manga/Magika no Kenshi to Shoukan Maou-enlaces.txt",
+		"/G/Proyectos/prueba01/manga/static/manga/The Mythical Realm-enlaces.txt",
+		"/G/Proyectos/prueba01/static/jquery-3.3.1.min.js",
+		"/G/Proyectos/prueba01/manga/static/manga/manga_show.css",
+		"/G/Proyectos/prueba01/manga/templates/manga/manga_show2.html",
+		"/G/Proyectos/prueba01/manga/urls.py",
+		"/G/Proyectos/prueba01/manga/models.py",
+		"/G/Proyectos/prueba01/manga/templates/manga/manga_show.html",
+		"/G/Proyectos/prueba01/manga/static/manga/prueba.py",
+		"/G/Proyectos/prueba01/manga/static/manga/Descargar_Imagenes_Beta.py",
+		"/G/Proyectos/prueba01/manga/static/manga/The Scholar&#39s Reincarnation-enlaces.txt",
+		"/C/Users/CANC/Downloads/p.txt",
+		"/C/Users/CANC/Downloads/p.jpg.txt",
+		"/G/Proyectos/prueba01/manga/static/manga/Nidoume No Jinsei Wo Isekai De-enlaces.txt",
+		"/G/Proyectos/prueba01/manga/static/manga/7th Garden/example02.js",
+		"/C/Users/CANC/AppData/Local/Temp/Rar$DIa0.496/searchindex.js",
+		"/C/Users/CANC/AppData/Local/Temp/Rar$DIa0.409/Read me.txt",
+		"/G/Proyectos/prueba01/manga/static/manga/Douluo Dalu-enlaces.txt",
+		"/G/Python/Python36/lib/threading.py",
+		"/G/Python/Python36/Scripts/django-admin.py",
+		"/C/Users/CANC/Documents/framework7/js/framework7.min.js.map",
+		"/C/Users/CANC/Documents/framework7/js/framework7.min.js",
+		"/C/Users/CANC/Documents/framework7/components/button/button.less",
+		"/C/Users/CANC/Documents/framework7/components/toolbar/toolbar.less",
+		"/C/Users/CANC/Documents/framework7/utils/device.js",
+		"/C/Users/CANC/Documents/framework7/utils/class.js",
+		"/C/Users/CANC/Documents/framework7/js/framework7.js",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/Descargar_Imagenes_Beta.py",
+		"/C/Users/CANC/Documents/framework7/css/framework7.css",
+		"/C/Users/CANC/Documents/framework7/components/button/button.js",
+		"/G/Proyectos/prueba01/template/index.html",
+		"/G/Proyectos/prueba01/static/styles.css",
+		"/G/Proyectos/prueba01/manga/templates/manga/indexadi.html",
+		"/G/Proyectos/prueba01/manga/static/manga/Shikkaku Mon No Saikyou Kenja-enlaces.txt",
+		"/C/Users/CANC/Downloads/Servicios Telematicos Unidad I.pdf",
+		"/G/Proyectos/prueba01/manga/static/manga/Shikkaku Mon no Saikyou Kenja-enlaces.txt",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/electiva.py",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/prueba.py",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/havenmanga.py",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/World Customize Creator-enlaces.txt",
+		"/C/Users/CANC/Downloads/Silver Gravekeeper Chap 137 English - Read Manga Online at heavenmanga.org_files/saved_resource.html",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/rename.py",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/7th Garden/Nuevo documento de texto.txt",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/pong.py",
+		"/G/Proyectos/prueba01/manga/template/manga/index.html",
+		"/G/Proyectos/prueba01/manga/template/manga/manga_show.html",
+		"/G/Proyectos/prueba01/manga/template/manga/manga_show.css",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/lines.sublime-project",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/7th Garden/example02.js",
+		"/C/Users/CANC/Documents/PYTHON/Kivy-projects/7th Garden/example.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"envi",
+			"login.html",
+			"es ne",
+			".css",
+			"js",
+			"getate",
+			"insert",
+			"unsort",
+			"sql_query",
+			"sqli_query",
+			"sql_query",
+			"sqli",
+			"insert",
+			"url_params",
+			".php",
+			"filter_specs",
+			"FILTER_s",
+			"SPEC",
+			"DISPLAY",
+			"REQUEST.GET",
+			"GET",
+			"list_filter",
+			"result_list",
+			"cl",
+			"cl.",
+			"get_queryset",
+			"list_filter",
+			"filter_list",
+			"ModelAdmin",
+			"modelAdmin",
+			"register(",
+			"register",
+			"_registry",
+			"changeli",
+			"change_li",
+			"change_lis",
+			"model_admin",
+			"urls",
+			"changelist",
+			".html",
+			"filters",
+			"cl",
+			"filter",
+			"cl",
+			"change_list",
+			"?",
+			"media",
+			"viewport",
+			"view",
+			"viewport",
+			"viewpor",
+			"reserva.matri"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "autos/templates/autos/base.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 4350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 185.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 96.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "manage.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"colli",
+				"C:\\Users\\CANC\\AppData\\Local\\Temp\\Rar$DIa0.444\\main.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"DropApp"
+			]
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
